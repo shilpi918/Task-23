@@ -3,6 +3,7 @@ import math
 ### bond = " bond calculation is to calculate the amount you will have to pay on a home loan"
 ### taking input from user which calculation you want to do invesment or bond
 inv_bond = input(("Please select option which calculation you want to see Investment or Bond :" )).lower()
+# In the input() function, you don't need to use str() around the prompt string since it's already a string so deleted str from input function in line no 5.
 if inv_bond == "investment":
     initial_amt = float (input("please enter the amount of money you are depositing:  "))
     int_rate = int (input("please enter the rate of interest: "))
