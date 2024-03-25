@@ -2,7 +2,7 @@ import math
 ### investment = " investment calculation is the amount of interest you will earn on your investment"
 ### bond = " bond calculation is to calculate the amount you will have to pay on a home loan"
 ### taking input from user which calculation you want to do invesment or bond
-inv_bond = input(str("Please select option which calculation you want to see Investment or Bond :" )).lower()
+inv_bond = input(("Please select option which calculation you want to see Investment or Bond :" )).lower()
 if inv_bond == "investment":
     initial_amt = float (input("please enter the amount of money you are depositing:  "))
     int_rate = int (input("please enter the rate of interest: "))
