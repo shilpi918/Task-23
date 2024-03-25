@@ -10,12 +10,12 @@ if inv_bond == "investment":
     time = float(input(  " please enter the no of years you want to invest: "))  
     interest = str(input("select either 'simple' or 'compound' interest: ")).lower()
     if interest == "simple":
-        "simple" == interest
+    
         interest = initial_amt*(1+r*time)
         total = interest
         print(f"Interest earned over {time} years : {total:.2f}".format())
     elif interest == "compound":
-          "compound"== interest
+         
           interest = initial_amt * math.pow((1+r), time)
           total  = interest
           print(f"Interest earned over {time} years : {total:.2f}".format())  
